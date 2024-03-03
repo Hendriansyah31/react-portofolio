@@ -1,6 +1,6 @@
 import React from "react"
 import {TypeAnimation} from "react-type-animation"
-import {FaLinkedinIn, FaInstagram} from "react-icons/fa"
+import {FaLinkedinIn, FaInstagram, FaGithub} from "react-icons/fa"
 import Gambar from '../assets/tes.jpg'
 
 const Main = () => {
@@ -24,11 +24,15 @@ const Main = () => {
             </h2>
             <div className="flex justify-between pt-6 max-w-[80px] w-full">
     
-                <a href="https://www.linkedin.com/in/vyaninsyanurmuhammad/">
+                <a href="https://www.linkedin.com/in/hendriansyah31/">
                     <FaLinkedinIn className="cursor-pointer" size={20}/>
                 </a>
+                <a href="https://www.instagram.com/hendriansyh31_/">
                 <FaInstagram className="cursor-pointer" size={20} />
-                
+                </a>
+                <a href="https://github.com/Hendriansyah31">
+                    <FaGithub className="cursor-pointer" size={20}/>
+                </a>
             </div>
             </div>
         </div>
